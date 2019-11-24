@@ -37,7 +37,8 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomInset: false,
+      resizeToAvoidBottomInset:
+          false, // faz com que nao tenha complicacoes ao abrir o teclado
       body: Container(
         child: Column(
           children: <Widget>[
